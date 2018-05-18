@@ -1,5 +1,3 @@
-# Calcupy
-
 Calcupy v1
 ======
 A simple calulator based on python
