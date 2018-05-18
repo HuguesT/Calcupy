@@ -3,7 +3,7 @@ import time
 ope = ""
 while True:
   print("Calcupy v1 by Hugues THOMAS \n Pour une addition tapez + \n Pour une soustration tapez - \n Pour faire une multiplication tapez x \n Pour une division tapez /")
-  ope = raw_input("Que souhaitez-vous faire ? : ")
+  ope = input("Que souhaitez-vous faire ? : ")
 
   if ope == "+":
    print("Vous avez choisi de faire une addition.")
