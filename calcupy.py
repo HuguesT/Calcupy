@@ -1,9 +1,9 @@
-#Calcupy v1 by Hugues THOMAS - 18/05/2018
+# -*- coding:utf-8 -*-
 import time
-ope = ("test")
+ope = ""
 while True:
   print("Calcupy v1 by Hugues THOMAS \n Pour une addition tapez + \n Pour une soustration tapez - \n Pour faire une multiplication tapez x \n Pour une division tapez /")
-  ope = input("Que souhaitez-vous faire ? : ")
+  ope = raw_input("Que souhaitez-vous faire ? : ")
 
   if ope == "+":
    print("Vous avez choisi de faire une addition.")
@@ -34,7 +34,7 @@ while True:
    print( a3 )
    break
   else:
-   print("Veuillez choisir une opération valide")
-   time.sleep(3)
+   print("! Veuillez choisir une opération valide !")
+   print("----")
    continue 
 
